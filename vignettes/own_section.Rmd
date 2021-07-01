@@ -1,0 +1,21 @@
+---
+output: html_document
+editor_options:
+  chunk_output_type: console
+---
+
+# My first own section
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(echo = TRUE,
+                      comment = "#>",
+                      collapse = TRUE)
+knitr::opts_knit$set(root.dir = '../')
+```
+
+New Plot:
+
+```{r}
+plot(1:5, rnorm(5))
+```
+

@@ -1,0 +1,8 @@
+book_filename: "demo_folder"
+chapter_name: ""
+repo: https://github.com/k-hench/demo_folder
+output_dir: ../docs
+rmd_files: ["index.Rmd", "own_section.Rmd", "Z_refs.Rmd"]
+clean: [packages.bib, bookdown.bbl]
+new_session: yes
+delete_merged_file: True

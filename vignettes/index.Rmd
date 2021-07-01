@@ -1,0 +1,29 @@
+---
+title: "Demo Folder"
+subtitle: "Adapted Template" 
+author: "New Author"
+date: "`r Sys.Date()`"
+documentclass: book
+bibliography: [book.bib]
+biblio-style: apalike
+link-citations: yes
+github-repo: k-hench/deom_folder
+description: "A test if the workshop works"
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE,
+                      comment = "#>",
+                      collapse = TRUE)
+knitr::opts_knit$set(root.dir = '../')
+```
+
+
+```{r set_fold, include=FALSE}
+source("R/initial_folding.R")
+create_html_header("show") # either "show" or "fold"
+```
+
+# Intro
